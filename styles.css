@@ -19,5 +19,54 @@ color:rgb(0, 0, 0);
     color: #000000f7;
     padding:1rem;
     text-align: center; 
+}
 
+.Subtitle{
+    opacity:40%;
+}
+
+.content{
+    display:flex; /*coloca las targrtas a u lado de la otra*/
+    gap:3rem /*separar las targetas */
+    flex-wrap:wrap; /*permite que las targetas bajen si no caben*/
+    justify-conten:center
+    padding: 2rem;
+}
+
+
+.card {
+background:aqua;
+padding:1.25rem;
+border-radius:22px ;
+box-shadow: 0.6px 18px rgb(13, 255, 0) ; /*dar profundidad     */
+width:300px;
+}
+.card h2{ 
+    margin-bottom:0.5rem;
+    color:blue
+}
+
+.card p{
+    margin-bottom:1rem ;
+    color:rgb(171, 11, 11)
+}
+
+.btn{
+    display: inline-block;
+    padding:0.5rem 1rem;
+    background:rgb(97, 83, 78);
+    border-radius:8px ;
+    color: black;
+}
+
+.card a{
+    justify-content:center;
+    display:flex;
+    text-align: center;
+}
+
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color:aliceblue;
 }
